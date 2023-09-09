@@ -1,0 +1,146 @@
+body {
+  background: gray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right,rgb(0, 216, 255),green);
+  
+}
+
+
+#root {
+  height: 320px;
+  width:460px ;
+  margin-top: 5rem;
+
+  
+ 
+}
+
+
+/* componente Inputs */
+
+.data-container {
+  background-color:whitesmoke;
+  padding: 2rem;
+  border: solid black 2px;
+  border-radius: 15px 15px 110px 15px;
+  height: 100%;
+  
+
+}
+
+
+/* seccion formulario */
+form{ 
+  display: flex;
+ /*  background-color: darkgoldenrod; */
+  margin-bottom: 30px;
+  border-bottom: solid red 2px;
+  position: relative;
+  padding-bottom: 20px;
+  
+}
+
+
+.input-date {
+  width: 70px;
+  height: 33px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+button {
+  position: absolute;
+  right: -1%;
+  bottom: -25%;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  transition: all ease-in-out .7s;
+  
+}
+
+button:hover {
+  background-color: rgb(118, 52, 185);
+  cursor: pointer;
+  transition: .7s;
+}
+
+/* con este fragmento de codigo hacemos que el texto este mas pegado hacia arriba */
+form span {
+  position: relative;
+ 
+}
+
+.message{
+  position: absolute;
+  top: 75%;
+  margin: 0 10px 0;
+  font-size: small;
+  font-size: 11px;
+
+}
+
+/* creando clase que aparecera dinamicamente cuando se capture un error */
+
+  .error {
+    color: red;
+  }
+
+
+/* componente Text */
+
+
+.texts {
+ /*  background-color: rgb(80, 80, 116); */
+  padding: .7rem;
+  font-weight: bold;
+  font-size:40px;
+}
+
+
+
+
+
+
+/* media querys */
+
+@media screen and (max-width:450px) {
+      #root {
+        height: 360px;
+        width:330px ;
+      
+        
+      
+      }
+
+
+
+      button {
+      
+        right: 40%;
+        bottom: -25%;
+      }
+
+
+    form {
+      display: flex;
+    /*   background-color: darkgoldenrod; */
+      margin-top: 15px;
+      border-bottom: solid red 2px;
+      position: relative;
+      padding: .3rem;
+      padding-bottom: 25px;
+    }
+
+}
+
+
+
+
