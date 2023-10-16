@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 
-export default function Text (props) {
+export default function Text ({dia,mes, anio}) {
     return (
         <div className="texts">
-            <div><span style={{color:'rgb(118, 52, 185)' , marginRight:'10px'}} >{props.anios}</span>  años</div>
-            <div><span style={{color:'rgb(118, 52, 185)', marginRight:'10px'}}>{props.meses}</span>  meses</div>
-            <div><span style={{color:'rgb(118, 52, 185)', marginRight:'10px'}}>{props.dias}</span>  dias</div>
+            <div><span style={{color:'rgb(118, 52, 185)' , marginRight:'10px'}} >{anio}</span>  años</div>
+            <div><span style={{color:'rgb(118, 52, 185)', marginRight:'10px'}}>{mes}</span>  meses</div>
+            <div><span style={{color:'rgb(118, 52, 185)', marginRight:'10px'}}>{dia}</span>  dias</div>
         </div>
     )
 
