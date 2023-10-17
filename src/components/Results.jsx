@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-export default function Text ({dia,mes, anio}) {
+export default function Results ({dia,mes, anio}) {
     return (
         <div className="texts">
             <div><span style={{color:'rgb(118, 52, 185)' , marginRight:'10px'}} >{anio}</span>  años</div>
