@@ -1,7 +1,8 @@
 import { useState, useRef } from "react"
 import './app.css'
-import Results from "./components/Results"
-import { FormContainer } from "./components/FormContainer"
+import { FormContainer } from "./components/form-container/FormContainer"
+import Results from "./components/results/Results"
+
 
 export default function App(){
 
