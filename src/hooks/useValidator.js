@@ -6,7 +6,7 @@ export const useValidator = () => {
   const [mes, setMes] = useState('--')
   const [anio, setAnio] = useState('--')
 
-  function emptyFieldValidator(dia, mes, anio, ){
+  function emptyFieldValidator(dia, mes, anio ){
     if(dia==''){
         ref.current.children[0].classList.add('error')
         ref.current.children[0].lastElementChild.textContent  = 'dato requerido'     
