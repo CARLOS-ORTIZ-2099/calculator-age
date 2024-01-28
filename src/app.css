@@ -40,6 +40,7 @@ form{
   border-bottom: solid red 2px;
   position: relative;
   padding-bottom: 20px;
+  border: solid rgb(35, 217, 71) 2px;
   
 }
 
@@ -102,6 +103,7 @@ form span {
   padding: .7rem;
   font-weight: bold;
   font-size:40px;
+  border: solid rgb(44, 85, 219) 2px;
 }
 
 
